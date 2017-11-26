@@ -12,7 +12,7 @@ To make everything runnable with cargo, the examples are named **main.rs** and n
 
 * Install rustup: https://www.rust-lang.org/en-US/install.html
 * Do a `rustup update` to make sure the current stable version is installed. The Windows version for example was 1.17, even if 1.22 was available.
-* On Linux I needed to add the cargo path to my .zshrc, because the path will be added only in the .bash_profile file.
+* On Linux I needed to add the cargo path env to my .zshrc, because the path was only added to the .bash_profile.
 
 ## Editor (VS Code)
 
@@ -26,3 +26,9 @@ To make everything runnable with cargo, the examples are named **main.rs** and n
 * "The Rust Programming Language" book: https://doc.rust-lang.org/book/
 * "Rust by Example": https://rustbyexample.com
 * Interesting list of rust links: https://github.com/rust-unofficial/awesome-rust
+
+# Thinks I want to take a look at
+
+* Cargo features:
+  * workspaces: Sound a bit like lerna, mono repo?
+  * examples: Demo code than can be executed?
