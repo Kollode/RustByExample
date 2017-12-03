@@ -1,0 +1,7 @@
+[package]
+name = "rust_by_example_1_2_2_1_test_case_list"
+version = "0.1.0"
+authors = ["Patrick Kollodzik <patrick.kollodzik@gmail.com>"]
+publish = false
+
+[dependencies]
