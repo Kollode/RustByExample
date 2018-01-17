@@ -1,0 +1,4 @@
+[[package]]
+name = "rust_by_example_4_2_scope_shadowing"
+version = "0.1.0"
+
