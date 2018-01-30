@@ -36,6 +36,8 @@ fn main() {
     // 128 as u8 -> 128, whose two's complement in eight bits is:
     // Max value is 127, the next 1 leads to an overflow and start at -128
     println!(" 128 as a i8 is : {}", 128 as i8);
+    println!(" 128 as a i8 is : {:b}", 127 as i8);
+    println!(" 128 as a i8 is : {:b}", 128 as i8);
 
     // repeating the example above
     // 1000 as u8 -> 232
